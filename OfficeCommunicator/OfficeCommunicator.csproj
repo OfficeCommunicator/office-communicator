@@ -42,8 +42,12 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+<<<<<<< HEAD
     <CodeAnalysisRuleSet>OfficeCommunicator.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>true</RunCodeAnalysis>
+=======
+    <CodeAnalysisRuleSet>OfficeCommunicator1.ruleset</CodeAnalysisRuleSet>
+>>>>>>> 97d61972d26101ade9ca5b1632a0debcd1f147c9
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -53,8 +57,12 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+<<<<<<< HEAD
     <CodeAnalysisRuleSet>
     </CodeAnalysisRuleSet>
+=======
+    <CodeAnalysisRuleSet>OfficeCommunicator1.ruleset</CodeAnalysisRuleSet>
+>>>>>>> 97d61972d26101ade9ca5b1632a0debcd1f147c9
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -108,6 +116,11 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+<<<<<<< HEAD
+=======
+    <None Include="OfficeCommunicator.ruleset" />
+    <None Include="OfficeCommunicator1.ruleset" />
+>>>>>>> 97d61972d26101ade9ca5b1632a0debcd1f147c9
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
