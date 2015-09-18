@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
 <RuleSet Name="Copy of Microsoft Managed Recommended Rules" Description="These rules focus on the most critical problems in your code, including potential security holes, application crashes, and other important logic and design errors. You should include this rule set in any custom rule set you create for your projects." ToolsVersion="14.0">
-=======
-<RuleSet Name="Rules for OfficeCommunicator" Description="Code analysis rules for OfficeCommunicator.csproj." ToolsVersion="14.0">
->>>>>>> 97d61972d26101ade9ca5b1632a0debcd1f147c9
   <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp" RuleNamespace="Microsoft.CodeAnalysis.CSharp">
     <Rule Id="CS0028" Action="None" />
     <Rule Id="CS0067" Action="None" />
@@ -176,7 +172,6 @@
     <Rule Id="IDE0003" Action="None" />
     <Rule Id="IDE0004" Action="None" />
     <Rule Id="IDE0005" Action="None" />
-<<<<<<< HEAD
   </Rules>
   <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
     <Rule Id="SA1000" Action="None" />
@@ -331,7 +326,5 @@
     <Rule Id="SA1648" Action="None" />
     <Rule Id="SA1651" Action="None" />
     <Rule Id="SA1652" Action="None" />
-=======
->>>>>>> 97d61972d26101ade9ca5b1632a0debcd1f147c9
   </Rules>
 </RuleSet>
