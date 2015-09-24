@@ -15,11 +15,6 @@
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="InterfaceNamesMustBeginWithI">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
         <Rule Name="ConstFieldNamesMustBeginWithUpperCaseLetter">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
@@ -290,17 +285,7 @@
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="StatementMustNotBeOnSingleLine">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
         <Rule Name="ElementMustNotBeOnSingleLine">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="CurlyBracketsMustNotBeOmitted">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
@@ -316,11 +301,6 @@
           </RuleSettings>
         </Rule>
         <Rule Name="ElementDocumentationHeadersMustNotBeFollowedByBlankLine">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="CodeMustNotContainMultipleBlankLinesInARow">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
@@ -366,11 +346,6 @@
           </RuleSettings>
         </Rule>
         <Rule Name="ElementsMustBeSeparatedByBlankLine">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="CodeMustNotContainBlankLinesAtStartOfFile">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
@@ -470,11 +445,6 @@
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="StaticElementsMustAppearBeforeInstanceElements">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
         <Rule Name="DeclarationKeywordsMustFollowOrder">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
@@ -501,11 +471,6 @@
           </RuleSettings>
         </Rule>
         <Rule Name="InstanceReadonlyElementsMustAppearBeforeInstanceNonReadonlyElements">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="SystemUsingDirectivesMustBePlacedBeforeOtherUsingDirectives">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
@@ -540,11 +505,6 @@
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="PrefixLocalCallsWithThis">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
         <Rule Name="PrefixCallsCorrectly">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
@@ -565,11 +525,6 @@
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="CommaMustBeOnSameLineAsPreviousParameter">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
         <Rule Name="ParameterListMustFollowDeclaration">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
@@ -581,11 +536,6 @@
           </RuleSettings>
         </Rule>
         <Rule Name="SplitParametersMustStartOnLineAfterDeclaration">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="ParametersMustBeOnSameLineOrSeparateLines">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
@@ -650,26 +600,11 @@
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
         </Rule>
-        <Rule Name="UseShorthandForNullableTypes">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
       </Rules>
       <AnalyzerSettings />
     </Analyzer>
     <Analyzer AnalyzerId="StyleCop.CSharp.SpacingRules">
       <Rules>
-        <Rule Name="KeywordsMustBeSpacedCorrectly">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="CommasMustBeSpacedCorrectly">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
         <Rule Name="SemicolonsMustBeSpacedCorrectly">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
@@ -716,36 +651,6 @@
           </RuleSettings>
         </Rule>
         <Rule Name="ClosingSquareBracketsMustBeSpacedCorrectly">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="OpeningCurlyBracketsMustBeSpacedCorrectly">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="ClosingCurlyBracketsMustBeSpacedCorrectly">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="OpeningGenericBracketsMustBeSpacedCorrectly">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="ClosingGenericBracketsMustBeSpacedCorrectly">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="OpeningAttributeBracketsMustBeSpacedCorrectly">
-          <RuleSettings>
-            <BooleanProperty Name="Enabled">False</BooleanProperty>
-          </RuleSettings>
-        </Rule>
-        <Rule Name="ClosingAttributeBracketsMustBeSpacedCorrectly">
           <RuleSettings>
             <BooleanProperty Name="Enabled">False</BooleanProperty>
           </RuleSettings>
