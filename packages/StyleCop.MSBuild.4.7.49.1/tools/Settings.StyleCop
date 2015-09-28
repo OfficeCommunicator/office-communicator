@@ -1,6 +1,7 @@
 <StyleCopSettings Version="105">
   <GlobalSettings>
     <BooleanProperty Name="ViolationsAsErrors">True</BooleanProperty>
+    <IntegerProperty Name="MaxViolationCount">0</IntegerProperty>
   </GlobalSettings>
   <Analyzers>
     <Analyzer AnalyzerId="StyleCop.CSharp.NamingRules">
