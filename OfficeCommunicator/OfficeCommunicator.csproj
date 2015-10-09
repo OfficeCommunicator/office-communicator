@@ -58,7 +58,7 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>officeCommunicatorKey.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>officeCommunicatorKey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -113,6 +113,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="officeCommunicatorKey.pfx" />
+    <None Include="officeCommunicatorKey.snk" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
