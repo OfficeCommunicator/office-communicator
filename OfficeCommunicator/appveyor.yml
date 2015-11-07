@@ -6,6 +6,7 @@ build:
   publish_nuget_symbols: true
   include_nuget_references: true
   verbosity: minimal
+
 artifacts:
 - path: OfficeCommunicatorInstallScript.iss
 deploy:
@@ -15,5 +16,6 @@ deploy:
   auth_token:
     secure: wG4pjO2AsPPA2ELvrOCaRHw2tVHvp4uRQsew7traQZpqTQLTqXZNHnFoZDkgk4I5
   artifact: OfficeCommunicatorInstallScript.iss
-  prerelease: false
   draft: true
+  prerelease: false
+  
